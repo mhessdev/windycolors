@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	import Palette from '$lib/Palette.svelte';
 </script>
 
 <svelte:head>
@@ -6,7 +7,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section />
+<Palette />
 
 <style>
 </style>
